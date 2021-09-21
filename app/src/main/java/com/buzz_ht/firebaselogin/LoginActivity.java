@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
                 String PASS= password.getText().toString();
 
                 if(EMAIL.isEmpty()){
-                    email.setError("Email cant be black");
+                    email.setError("Email cant be blank");
                     email.requestFocus();
                     return;
 
